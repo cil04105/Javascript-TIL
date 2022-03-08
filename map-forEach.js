@@ -1,8 +1,8 @@
-// const numbers = [1, 2, 3, 4, 5, 6];
-// console.log(numbers); //그대로
+const numbers = [1, 2, 3, 4, 5, 6];
+console.log(numbers); //그대로
 
-// let sum = numbers.map((number) => number + 2);
-// console.log(sum); //[3, 4, 5, 6, 7, 8] _ map은 새로운 배열을 저장하고 리턴함
+let sum = numbers.map((number) => number + 2);
+console.log(sum); //[3, 4, 5, 6, 7, 8] _ map은 새로운 배열을 저장하고 리턴함
 
 // ------------------------------------------------
 
