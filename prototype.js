@@ -12,13 +12,13 @@ let student2 = new student("Lee");
 
 // --------------------------------------------------
 
-// //그냥 상속(프로퍼티 8개 생성)
-// function student(name) {
-//   this.name = name;
-//   this.age = 18;
-//   this.gender = "mail";
-//   this.language = "korean";
-// }
+//그냥 상속(프로퍼티 8개 생성)
+function student(name) {
+  this.name = name;
+  this.age = 18;
+  this.gender = "mail";
+  this.language = "korean";
+}
 
-// let student1 = new student("Kim");
-// let student2 = new student("Lee");
+let student1 = new student("Kim");
+let student2 = new student("Lee");
