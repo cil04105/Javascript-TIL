@@ -1,0 +1,6 @@
+//코드 디자인 패턴
+
+let prm = new Promise();
+
+//프로미스가 성공일 경우 실행
+prm.then(function () {});
